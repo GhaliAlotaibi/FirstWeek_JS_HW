@@ -1,0 +1,8 @@
+table {
+    border: black solid 5px;
+    font-size: 2em;
+}
+
+table tr {
+    border-top: black solid 5px;
+}
