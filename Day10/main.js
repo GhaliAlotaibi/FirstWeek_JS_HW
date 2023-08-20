@@ -1,11 +1,15 @@
 // واجب أستاذ علي
 
 function isGreaterThan () {
+    
     let num = 10;
     let user = Number(prompt("your number :"))
+    
     if (user > num) {
         alert(user + num)
-    } else {
+    } 
+    
+    else {
         alert("Error")
     }
 }
