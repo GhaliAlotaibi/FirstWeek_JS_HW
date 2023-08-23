@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Markazi Text', serif;
+}
+
+/**  وهنا وضعنا خط الصفحة لجعله مريح للعين ولجمالية الموقع  **/
+
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+
+/**  غيرنا لون الخلفية **/
+
+body {
+    font-weight: normal;
+    font-family: 'Markazi Text', serif;
+    background: #606c38;
+}
+
+/** غيرنا شكل التصفح وصار سلس اكثر وافضل  **/
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section button {
+    width: 200px;
+    height: 200px;
+    background-color: #2B2D42;
+}
+
+table {
+    height: 300px;
+    border: black solid 5px;
+    font-size: 2em;
+    width: 1400px;
+}
+
+table #tr1 {
+    background-color:gray;
+    height: 30%;
+    font-size: 1.3em;
+}
+
+table #tr2 {
+    height: 150px;
+}
+
+table #th0 {
+    background-color:gray;
+}
+
+table #th1 {
+    background-color:gray;
+    width: 100;
+}
+
+table tr {
+    background-color: #fefae0;
+    border-top: black solid 5px;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    width: 170px;
+    height: 160px;
+    border: 3px solid #E76F51;
+    border-radius: 25px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: #E76F51;
+    font-size: 1.2em;
+    font-weight: 550;
+    color: #ffffff;
+  }
+  
+  button:hover {
+    background-color: #FC9E4F;
+    color: white;
+    filter: brightness(70%);
+  }
