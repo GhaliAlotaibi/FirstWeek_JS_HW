@@ -24,10 +24,10 @@ Addbutton.addEventListener("click", function () {
     myelementtr.appendChild(myelement_editdate)
     myelementtr.appendChild(updatebutton)
    
-    let usertd = prompt("ادخل المهمة")
+    let usertd = prompt("ادخل نص")
     myelementtd.textContent = usertd;
    
-    let user_ask = confirm("هل انهيتها ؟")
+    let user_ask = confirm("هل اتممتها ؟")
    
     if (user_ask == true) {
         myelement_truefalse.textContent = "تمت"
